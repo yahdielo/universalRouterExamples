@@ -6,16 +6,13 @@ the uniswap universal router is signicanlty diferrent  from the regular SwapRout
 the idea of this repo is to provide a base contract for people wanting to interact with the uniswap **UniversalRouter**, saving them hours of finding out as all interfaces needed to swap tokens are rigth here.
 
 **NOTE**:
-currenlty allows swaps on v2 swaps
-
-*NOTE*
-currenlty only have v2swap eth->erc20 
+currenlty allows swaps on v2swap eth->erc20 
 *to add*
-v3 eth->token
+v3 eth<->token
 
-v3 token->token
+v3 token<->token
 
-v2 token->token
+v2 token<->token
 
 
 **run test**:   forge test -vvvvv  --fork-url <your_rpc_provider>
