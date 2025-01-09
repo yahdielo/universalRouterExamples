@@ -29,7 +29,6 @@ contract UniversalSwapper {
    
     function execute(address token) payable public returns(uint[] memory amounts) {
         if(msg.value == 0) revert();
-        emit Balance(msg.value);
         
         bytes memory commands = abi.encodePacked(
             bytes1(uint8(Commands.WRAP_ETH)),
