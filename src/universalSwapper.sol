@@ -15,8 +15,6 @@ contract UniversalSwapper {
     IPermit2 public immutable permit2;
     IERC20 public immutable weth;
 
-    event NewOwner(address newOner);
-    event Balance(uint256);
     event Error(string);
    
     constructor(){
